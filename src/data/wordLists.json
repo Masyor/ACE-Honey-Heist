@@ -1,0 +1,214 @@
+[
+  {
+    "id": "pipeline_vocab",
+    "name": "💼 Pipeline",
+    "description": "Essential professional pipeline and performance terms.",
+    "words": [
+      {
+        "id": "w_pipeline",
+        "word": "PIPELINE",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "An annual meeting held by ACE to talk about stuff. No bears allowed!",
+        "exampleSentence": "We are all at the _____ meeting today."
+      },
+      {
+        "id": "w_remedial",
+        "word": "REMEDIAL",
+        "difficulty": 2,
+        "partOfSpeech": "adjective",
+        "definition": "Special classes designed to help all bears achieve their full paw-tential.",
+        "exampleSentence": "Barnaby attended a _____ class in the cave to improve his reading skills."
+      },
+      {
+        "id": "w_retention",
+        "word": "RETENTION",
+        "difficulty": 3,
+        "partOfSpeech": "noun",
+        "definition": "How many bears stay at ACE from term-to-term.",
+        "exampleSentence": "Improving _____ is important if you want toeat lots of honey!"
+      },
+      {
+        "id": "w_passrate",
+        "word": "PASSRATE",
+        "difficulty": 3,
+        "partOfSpeech": "noun",
+        "definition": "The percentage of bears that successfully pass each level.",
+        "exampleSentence": "The bear achieved a 100% _____ on the honey exam and passed GEP 10."
+      }
+    ]
+  },
+  {
+    "id": "nature_wildlife",
+    "name": "🌲 Forest Wildlife & Nature",
+    "description": "Essential wilderness words about bears, bees, trees, and honey.",
+    "words": [
+      {
+        "id": "w_bear",
+        "word": "BEAR",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A large, heavy mammal with thick fur, a short tail, and sharp claws.",
+        "exampleSentence": "The furry _____ snuck quietly through the forest to find honey."
+      },
+      {
+        "id": "w_hive",
+        "word": "HIVE",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A structure in which bees live and make honey.",
+        "exampleSentence": "A buzzing swarm of bees guarded the golden _____ in the tall oak tree."
+      },
+      {
+        "id": "w_comb",
+        "word": "COMB",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A structure of hexagonal wax cells constructed by bees to store honey.",
+        "exampleSentence": "Dripping with sweet nectar, the honey _____ glistened in the sunlight."
+      },
+      {
+        "id": "w_cave",
+        "word": "CAVE",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A large underground chamber or hollow in a hill or cliff.",
+        "exampleSentence": "The bear stored all his collected honey jars inside his warm _____."
+      },
+      {
+        "id": "w_bees",
+        "word": "BEES",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "Yellow and black striped insects that collect pollen and make honey.",
+        "exampleSentence": "The worker _____ were busy gathering nectar from clover blossoms."
+      },
+      {
+        "id": "w_honey",
+        "word": "HONEY",
+        "difficulty": 2,
+        "partOfSpeech": "noun",
+        "definition": "A sweet, sticky yellow fluid produced by bees from flower nectar.",
+        "exampleSentence": "The bear licked a drip of delicious golden _____ off his paw."
+      },
+      {
+        "id": "w_forest",
+        "word": "FOREST",
+        "difficulty": 2,
+        "partOfSpeech": "noun",
+        "definition": "A large area covered chiefly with trees and undergrowth.",
+        "exampleSentence": "Sunlight filtered through the dense green canopy of the forest."
+      },
+      {
+        "id": "w_nectar",
+        "word": "NECTAR",
+        "difficulty": 2,
+        "partOfSpeech": "noun",
+        "definition": "A sugar-rich liquid produced by plants in flowers to attract pollinators.",
+        "exampleSentence": "Bees fly from blossom to blossom sucking sweet _____."
+      },
+      {
+        "id": "w_winter",
+        "word": "WINTER",
+        "difficulty": 2,
+        "partOfSpeech": "noun",
+        "definition": "The coldest season of the year, between autumn and spring.",
+        "exampleSentence": "The bear needed honey to survive the long, cold _____."
+      },
+      {
+        "id": "w_hibernate",
+        "word": "HIBERNATE",
+        "difficulty": 4,
+        "partOfSpeech": "verb",
+        "definition": "To spend the winter in a dormant, sleeping state.",
+        "exampleSentence": "After filling his den with honey, Barnaby prepared to _____ until spring."
+      }
+    ]
+  },
+  {
+    "id": "elementary_spelling",
+    "name": "🎒 Elementary Explorer",
+    "description": "Fun, easy vocabulary for young bear cubs.",
+    "words": [
+      {
+        "id": "w_tree",
+        "word": "TREE",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A woody perennial plant, typically having a single stem or trunk.",
+        "exampleSentence": "The honey hive hung high in the branches of an oak _____."
+      },
+      {
+        "id": "w_path",
+        "word": "PATH",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A way or track laid down for walking.",
+        "exampleSentence": "Follow the quiet dirt _____ to reach the bear cave."
+      },
+      {
+        "id": "w_seed",
+        "word": "SEED",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A flowering plant unit capable of developing into another plant.",
+        "exampleSentence": "A tiny acorn _____ grew into a massive forest tree."
+      },
+      {
+        "id": "w_bird",
+        "word": "BIRD",
+        "difficulty": 1,
+        "partOfSpeech": "noun",
+        "definition": "A warm-blooded egg-laying vertebrate with feathers and wings.",
+        "exampleSentence": "A colorful blue _____ sang a happy tune from a birch branch."
+      },
+      {
+        "id": "w_river",
+        "word": "RIVER",
+        "difficulty": 2,
+        "partOfSpeech": "noun",
+        "definition": "A large natural stream of water flowing in a channel.",
+        "exampleSentence": "The grizzly bear caught a shiny salmon in the rushing _____."
+      }
+    ]
+  },
+  {
+    "id": "advanced_vocab",
+    "name": "🎓 Master Lexicon",
+    "description": "Challenging vocabulary words for expert spelling bears.",
+    "words": [
+      {
+        "id": "w_mellifluous",
+        "word": "MELLIFLUOUS",
+        "difficulty": 7,
+        "partOfSpeech": "adjective",
+        "definition": "Sweet or musical; pleasant to hear or tasting smooth like honey.",
+        "exampleSentence": "The acoustic guitar played a _____ melody that echoed through the valley."
+      },
+      {
+        "id": "w_metamorphosis",
+        "word": "METAMORPHOSIS",
+        "difficulty": 8,
+        "partOfSpeech": "noun",
+        "definition": "A process of transformation from an immature form to an adult form.",
+        "exampleSentence": "Inside the honeycomb cell, the larva underwent a complete _____ into a worker bee."
+      },
+      {
+        "id": "w_clandestine",
+        "word": "CLANDESTINE",
+        "difficulty": 7,
+        "partOfSpeech": "adjective",
+        "definition": "Kept secret or done secretively, especially because illicit.",
+        "exampleSentence": "The bear planned a _____ heist to sneak past the sleeping guard bees."
+      },
+      {
+        "id": "w_perseverance",
+        "word": "PERSEVERANCE",
+        "difficulty": 8,
+        "partOfSpeech": "noun",
+        "definition": "Persistence in doing something despite difficulty or delay in achieving success.",
+        "exampleSentence": "Through patient _____, the bear collected every single missing letter tile."
+      }
+    ]
+  }
+]

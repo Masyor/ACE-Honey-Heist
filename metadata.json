@@ -1,0 +1,6 @@
+{
+  "name": "Honey Heist",
+  "description": "A Stardew Valley-inspired forest stealth and spelling adventure where you play a bear sneaking past bees to steal letters and process honey for winter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
