@@ -182,7 +182,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onPlay }) => {
 
         {/* Footer info */}
         <p className="text-[10px] sm:text-xs text-amber-300/40 tracking-wider">
-          VER. 1.1.2
+          VER. 1.0
         </p>
       </div>
     </div>
