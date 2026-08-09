@@ -626,7 +626,8 @@ export const ForestCanvas: React.FC<ForestCanvasProps> = ({
                   player.stunTimer = 180;
                   beesRef.current.forEach((b) => (b.state = 'returning'));
                 } else {
-                  setStatusMessage(`💥 OUCH! A bee stung you! Health: ${player.health}/${player.maxHealth} HP`);
+                  player.graceTimer = 120; // 2-second immunity cooldown between bee stings!
+                  setStatusMessage(`💥 OUCH! A bee stung you! Immunity active! Health: ${player.health}/${player.maxHealth} HP`);
                 }
               }
 

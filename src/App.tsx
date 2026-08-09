@@ -15,6 +15,7 @@ import { HelpModal } from './components/HelpModal';
 import { WordListModal } from './components/WordListModal';
 import { ResetModal } from './components/ResetModal';
 import { SplashScreen } from './components/SplashScreen';
+import { BearAnnouncementModal } from './components/BearAnnouncementModal';
 
 export default function App() {
   // --- PERSISTENT STATE FROM LOCAL STORAGE ---
@@ -51,8 +52,8 @@ export default function App() {
   });
 
   const [unlockedBearIds, setUnlockedBearIds] = useState<string[]>(() => {
-    const saved = localStorage.getItem('hh_unlockedBears');
-    return saved ? JSON.parse(saved) : ['sun'];
+    // All bear types are completely free and unlocked by default!
+    return BEARS.map((b) => b.id);
   });
 
   const [unlockedCosmeticIds, setUnlockedCosmeticIds] = useState<string[]>(() => {
@@ -97,6 +98,7 @@ export default function App() {
   const [isBookshelfOpen, setIsBookshelfOpen] = useState(false);
   const [isResetOpen, setIsResetOpen] = useState(false);
   const [showSplashScreen, setShowSplashScreen] = useState(true);
+  const [announcedBear, setAnnouncedBear] = useState<BearType | null>(null);
 
   // Sync state to LocalStorage
   useEffect(() => {
@@ -166,6 +168,11 @@ export default function App() {
   const handleWordSpelledComplete = useCallback((earnedJars: number) => {
     setHoneyJars((prev) => prev + earnedJars);
     setLevel((prev) => prev + 1);
+
+    // Pick a random bear for the next round!
+    const randomBear = BEARS[Math.floor(Math.random() * BEARS.length)];
+    setEquippedBearId(randomBear.id);
+    setAnnouncedBear(randomBear);
   }, []);
 
   // Unlock Bear
@@ -244,6 +251,10 @@ export default function App() {
           if (!settings.musicMuted) {
             sound.startCozyMusic();
           }
+          // Assign random bear for the first round and trigger announcement popup!
+          const randomBear = BEARS[Math.floor(Math.random() * BEARS.length)];
+          setEquippedBearId(randomBear.id);
+          setAnnouncedBear(randomBear);
         }}
       />
     );
@@ -395,6 +406,14 @@ export default function App() {
         onClose={() => setIsResetOpen(false)}
         onConfirm={handleConfirmReset}
       />
+
+      {announcedBear && (
+        <BearAnnouncementModal
+          isOpen={!!announcedBear}
+          bear={announcedBear}
+          onClose={() => setAnnouncedBear(null)}
+        />
+      )}
     </div>
   );
 }

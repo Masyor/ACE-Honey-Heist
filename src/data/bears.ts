@@ -25,8 +25,8 @@ export const BEARS: BearType[] = [
     spriteColor: '#7c4a21',
     speed: 3.2,
     stealthBonus: 1.0,
-    unlockCost: 50,
-    unlockLevel: 2,
+    unlockCost: 0,
+    unlockLevel: 1,
     rarity: 'common'
   },
   {
@@ -39,8 +39,8 @@ export const BEARS: BearType[] = [
     spriteColor: '#2b2b2b',
     speed: 3.5,
     stealthBonus: 1.2,
-    unlockCost: 50,
-    unlockLevel: 3,
+    unlockCost: 0,
+    unlockLevel: 1,
     rarity: 'rare'
   },
   {
@@ -53,8 +53,8 @@ export const BEARS: BearType[] = [
     spriteColor: '#e0f2fe',
     speed: 3.0,
     stealthBonus: 1.1,
-    unlockCost: 100,
-    unlockLevel: 5,
+    unlockCost: 0,
+    unlockLevel: 1,
     rarity: 'epic'
   },
   {
@@ -67,8 +67,8 @@ export const BEARS: BearType[] = [
     spriteColor: '#1e293b',
     speed: 3.6,
     stealthBonus: 1.5,
-    unlockCost: 175,
-    unlockLevel: 7,
+    unlockCost: 0,
+    unlockLevel: 1,
     rarity: 'epic'
   },
   {
@@ -81,8 +81,8 @@ export const BEARS: BearType[] = [
     spriteColor: '#6b7280',
     speed: 3.1,
     stealthBonus: 2.0,
-    unlockCost: 250,
-    unlockLevel: 10,
+    unlockCost: 0,
+    unlockLevel: 1,
     rarity: 'legendary'
   }
 ];
