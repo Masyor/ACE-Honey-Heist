@@ -1,44 +1,5 @@
 [
   {
-    "id": "pipeline_vocab",
-    "name": "💼 Pipeline",
-    "description": "Essential professional pipeline and performance terms.",
-    "words": [
-      {
-        "id": "w_pipeline",
-        "word": "PIPELINE",
-        "difficulty": 1,
-        "partOfSpeech": "noun",
-        "definition": "An annual meeting held by ACE to talk about stuff. No bears allowed!",
-        "exampleSentence": "We are all at the _____ meeting today."
-      },
-      {
-        "id": "w_remedial",
-        "word": "REMEDIAL",
-        "difficulty": 2,
-        "partOfSpeech": "adjective",
-        "definition": "Special classes designed to help all bears achieve their full paw-tential.",
-        "exampleSentence": "Barnaby attended a _____ class in the cave to improve his reading skills."
-      },
-      {
-        "id": "w_retention",
-        "word": "RETENTION",
-        "difficulty": 3,
-        "partOfSpeech": "noun",
-        "definition": "How many bears stay at ACE from term-to-term.",
-        "exampleSentence": "Improving _____ is important if you want toeat lots of honey!"
-      },
-      {
-        "id": "w_passrate",
-        "word": "PASSRATE",
-        "difficulty": 3,
-        "partOfSpeech": "noun",
-        "definition": "The percentage of bears that successfully pass each level.",
-        "exampleSentence": "The bear achieved a 100% _____ on the honey exam and passed GEP 10."
-      }
-    ]
-  },
-  {
     "id": "nature_wildlife",
     "name": "🌲 Forest Wildlife & Nature",
     "description": "Essential wilderness words about bears, bees, trees, and honey.",
